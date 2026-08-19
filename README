@@ -1,0 +1,18 @@
+# Merge App
+
+A web application for merging data from Excel, CSV, TXT, and FASTA files.  
+Supports:
+- FASTA parsing (accession, description, sequence)
+- Using one FASTA/info file to annotate many target files
+- Interactive column selection
+- Preview of parsed and merged data
+- Batch merging of multiple files
+
+## Running locally
+pip install -r requirements.txt
+streamlit run merge_app.py
+
+## Deploying on Streamlit Cloud
+1. Create a new app at https://share.streamlit.io
+2. Select this repository
+3. Set main file to merge_app.py
